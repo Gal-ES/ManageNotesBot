@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Инициализация бота
-API_TOKEN = '7788934089:AAG18zRX9cYwgry8iFGhCzCisbOPL3Blwgc'  # Замените на реальный токен!
+API_TOKEN = '123456789:AAG18zRX9cYwgry8iFGhCzCisbOPL3Blwgc'  # Замените на реальный токен!
 bot = Bot(
     token=API_TOKEN,
     default=DefaultBotProperties(parse_mode="HTML")
